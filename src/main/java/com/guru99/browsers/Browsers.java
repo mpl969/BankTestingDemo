@@ -20,17 +20,12 @@ public class Browsers {
                 WebDriverManager.firefoxdriver().setup();
                 driver = new FirefoxDriver();
                 return driver;
-                
-                
-                
+
                 default:
                     return driver;
                 
         }
 
     }
-
-
-
 
 }
